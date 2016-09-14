@@ -1,3 +1,4 @@
+JDKPATH = $(shell /usr/libexec/java_home)
 INCLUDE=-I/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include \
 -I/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/include/darwin/ 
 TARGET=example.so

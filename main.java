@@ -7,7 +7,7 @@
  * ----------------------------------------------------------------------------- */
 
 
-public class example {
+public class main {
 	static {
 		String path = System.getProperty("user.dir");
 		String jniPath = path + "/example.so";
